@@ -60,11 +60,9 @@ const server = http.createServer((req, res) => {
     res.writeHead(404, headers);
     res.end(JSON.stringify({ error: "Ruta no encontrada" }));
 });
-const PORT = process.env.PORT || 3006;
- 
+
+const PORT = process.env.PORT || 3000;
+
 server.listen(PORT, () => {
     console.log("Servidor corriendo en puerto", PORT);
-
-
-    
 });
