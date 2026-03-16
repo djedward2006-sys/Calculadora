@@ -1,14 +1,29 @@
 {
   "name": "calculadora",
   "version": "1.0.0",
-  "main": "server.js",
+  "description": "Aplicación de calculadora desplegada en Render",
+  "main": "server.mjs",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djedward2006-sys/Calculadora.git"
+  },
+  "keywords": [],
+  "author": "Edward",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/djedward2006-sys/Calculadora/issues"
+  },
+  "homepage": "https://github.com/djedward2006-sys/Calculadora#readme",
   "dependencies": {
     "live-server": "^1.2.2"
   },
   "engines": {
     "node": "18.x"
-  }
+  },
+  "type": "module"
 }
+
