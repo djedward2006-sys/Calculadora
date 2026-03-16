@@ -1,23 +1,14 @@
 {
   "name": "calculadora",
   "version": "1.0.0",
-  "description": "",
-  "main": "funcionalidad.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://djedward2006-sys@github.com/djedward2006-sys/Calculadora.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/djedward2006-sys/Calculadora/issues"
-  },
-  "homepage": "https://github.com/djedward2006-sys/Calculadora#readme",
   "dependencies": {
     "live-server": "^1.2.2"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
